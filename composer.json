@@ -38,7 +38,7 @@
     ],
     "require": {
         "php": "^7.4 || ^8.0",
-        "payum/core": "^1.7.2",
+        "payum/core": "dev-nullable-type-deprecations as 1.7.5",
         "symfony/framework-bundle": "^4.4 || ^5.4 || ^6.0 || ^7.0",
         "symfony/form": "^4.4.20 || ^5.4 || ^6.0 || ^7.0",
         "symfony/validator": "^4.4 || ^5.4 || ^6.0 || ^7.0",
@@ -69,6 +69,12 @@
         "symfony/yaml": "^4.4 || ^5.4 || ^6.0 || ^7.0",
         "twig/twig": "^2.0 || ^3.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:answear/PayumCore.git"
+        }
+    ],
     "suggest": {
         "sonata-project/admin-bundle": "^3 If you want to configure payments in the backend."
     },
