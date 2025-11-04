@@ -37,13 +37,13 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.0",
-        "payum/core": "^1.7.7",
-        "symfony/framework-bundle": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/form": "^4.4.20 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/validator": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/security-csrf": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/dependency-injection": "^4.4 || ^5.4 || ^6.4 || ^7.0",
+        "php": "^8.1",
+        "payum/core": "^1.7.8",
+        "symfony/framework-bundle": "^6.0 || ^7.0",
+        "symfony/form": "^6.0 || ^7.0",
+        "symfony/validator": "^6.0 || ^7.0",
+        "symfony/security-csrf": "^6.0 || ^7.0",
+        "symfony/dependency-injection": "^6.4 || ^7.0",
         "symfony/polyfill-php80": "^1.26"
     },
     "require-dev": {
@@ -60,15 +60,21 @@
         "phpunit/phpunit": "^9.5",
         "psr/log": "^1 || ^2 || ^3",
         "stripe/stripe-php": "~7.0",
-        "symfony/browser-kit": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/expression-language": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/phpunit-bridge": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/templating": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/twig-bundle": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/web-profiler-bundle": "^4.4 || ^5.4 || ^6.0 || ^7.0",
-        "symfony/yaml": "^4.4 || ^5.4 || ^6.0 || ^7.0",
+        "symfony/browser-kit": "^6.0 || ^7.0",
+        "symfony/expression-language": "^6.0 || ^7.0",
+        "symfony/phpunit-bridge": "^6.0 || ^7.0",
+        "symfony/templating": "^6.0 || ^7.0",
+        "symfony/twig-bundle": "^6.0 || ^7.0",
+        "symfony/web-profiler-bundle": "^6.0 || ^7.0",
+        "symfony/yaml": "^6.0 || ^7.0",
         "twig/twig": "^2.0 || ^3.0"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:answear/PayumCore.git"
+        }
+    ],
     "suggest": {
         "sonata-project/admin-bundle": "^3 If you want to configure payments in the backend."
     },
